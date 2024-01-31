@@ -14,6 +14,7 @@
 		EAE5CB582B69B9C8009B2F6B /* NoteTaker_tdd3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5CB572B69B9C8009B2F6B /* NoteTaker_tdd3Tests.swift */; };
 		EAE5CB622B69B9C8009B2F6B /* NoteTaker_tdd3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5CB612B69B9C8009B2F6B /* NoteTaker_tdd3UITests.swift */; };
 		EAE5CB642B69B9C8009B2F6B /* NoteTaker_tdd3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5CB632B69B9C8009B2F6B /* NoteTaker_tdd3UITestsLaunchTests.swift */; };
+		EAE5CB712B69BACA009B2F6B /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5CB702B69BACA009B2F6B /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EAE5CB5D2B69B9C8009B2F6B /* NoteTaker tdd3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoteTaker tdd3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE5CB612B69B9C8009B2F6B /* NoteTaker_tdd3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTaker_tdd3UITests.swift; sourceTree = "<group>"; };
 		EAE5CB632B69B9C8009B2F6B /* NoteTaker_tdd3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTaker_tdd3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAE5CB702B69BACA009B2F6B /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		EAE5CB3A2B69B9C7009B2F6B = {
 			isa = PBXGroup;
 			children = (
+				EAE5CB702B69BACA009B2F6B /* Note.swift */,
 				EAE5CB452B69B9C7009B2F6B /* NoteTaker tdd3 */,
 				EAE5CB562B69B9C8009B2F6B /* NoteTaker tdd3Tests */,
 				EAE5CB602B69B9C8009B2F6B /* NoteTaker tdd3UITests */,
@@ -259,6 +262,7 @@
 			files = (
 				EAE5CB492B69B9C7009B2F6B /* ContentView.swift in Sources */,
 				EAE5CB472B69B9C7009B2F6B /* NoteTaker_tdd3App.swift in Sources */,
+				EAE5CB712B69BACA009B2F6B /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

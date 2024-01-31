@@ -8,16 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var note = Note(title: "noteTitle", body: "noteBody")
+
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(note.title)
+                .font(.largeTitle)
+            
+            Text(note.body)
+                .multilineTextAlignment(.leading)
+                .frame(width: 300, height: 300)
+                .border(.gray)
+                
+            
+            
+                Button {
+                    let noteDataManager = DataBase()
+                    noteDataManager.save(note)
+                    
+                    
+                } label: {
+                    Text("saveNote")
+                }
+                
+            
         }
-        .padding()
+        
     }
 }
+
 
 #Preview {
     ContentView()
